@@ -55,7 +55,7 @@ mysql.createConnection({
 	        res.json({status:500, error_msg: recupBDD})
 	    }
 	    
-	    res.json({status: 200, results:{msg: "Success", ads: recupBDD}})
+	    res.json({status: 200, results:{msg: "Successsss", ads: recupBDD}})
 	})
 	
 	
